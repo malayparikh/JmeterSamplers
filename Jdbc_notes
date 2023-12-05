@@ -1,0 +1,23 @@
+CREATE DATABASE books;
+
+USE books;
+
+CREATE TABLE authors (id INT, name VARCHAR(20), email VARCHAR(20));
+
+SHOW TABLES;
+
+INSERT INTO authors (id,name,email) VALUES(1,"Vivek","xuz@abc.com");
+INSERT INTO authors (id,name,email) VALUES(2,"Priya","p@gmail.com");
+INSERT INTO authors (id,name,email) VALUES(3,"Tom","tom@yahoo.com");
+
+SELECT * FROM authors;
+
+=======================================================================================
+
+Link for change mysql password and troubleshooting:
+https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux
+=============================================================================================
+mysql connect and after download > Copy "mysql-connector-j-8.2.0.jar" executable jar file in Jmeter folder : into "lib" folder and restart the jmeter
+
+https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.2.0.zip
+========================================================================================
