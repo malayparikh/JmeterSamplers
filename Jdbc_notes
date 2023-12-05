@@ -14,10 +14,15 @@ SELECT * FROM authors;
 
 =======================================================================================
 
-Link for change mysql password and troubleshooting:
+Link for changing mysql password and troubleshooting:
 https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux
 =============================================================================================
 mysql connect and after download > Copy "mysql-connector-j-8.2.0.jar" executable jar file in Jmeter folder : into "lib" folder and restart the jmeter
 
 https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.2.0.zip
 ========================================================================================
+
+MySQL Workbench : 
+https://dev.mysql.com/downloads/workbench/
+
+https://dev.mysql.com/downloads/file/?id=523568
